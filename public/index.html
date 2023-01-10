@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>OpenAI API</title>
+</head>
+
+<body>        
+    <form id="prompt-form">
+        <p>Write a prompt.</p>
+        <input type="text" id="prompt" placeholder="Ex: How do you meditate?" />
+    </form>
+
+    <div id="response-container">
+        <div class="spinner"></div>
+        <div id="prompt-display"></div>
+        <div id="response"> </div>
+    </div>
+</body>
+
+</html>
